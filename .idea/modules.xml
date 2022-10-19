@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/cloud.iml" filepath="$PROJECT_DIR$/cloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-base/cloud-base.iml" filepath="$PROJECT_DIR$/cloud-base/cloud-base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-sharejdbc/cloud-sharejdbc.iml" filepath="$PROJECT_DIR$/cloud-sharejdbc/cloud-sharejdbc.iml" />
+    </modules>
+  </component>
+</project>
