@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.sky.cloud.sharejdbc.mapper.UserMapper">
+    <resultMap id="BaseUser" type="com.sky.cloud.sharejdbc.entity.User">
+        <result column="id" property="id" jdbcType="BIGINT" />
+        <result column="user_name" property="userName" jdbcType="VARCHAR" />
+    </resultMap>
+
+    <select id="getUserById" resultMap="BaseUser">
+        select id, user_name from f_user where id = #{id};
+    </select>
+</mapper>

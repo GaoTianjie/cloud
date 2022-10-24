@@ -1,0 +1,42 @@
+spring:
+  application:
+    name: cloud-sharejdbc
+  # 单库操作
+  datasource:
+    username: free_rw
+    password: free_rw
+    url: jdbc:mysql://8.131.93.128:3306/free_1?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8&useSSL=false
+    driver-class-name: com.mysql.jdbc.Driver
+
+
+mybatis:
+  mapper-locations: classpath:mybatis/mapper/*.xml
+  type-aliases-package: com.sky.cloud.sharejdbc.entity
+server:
+  port: 8081
+
+person:
+  userName : gao
+  age : 123
+
+
+
+
+
+
+#   shardingsphere:
+#    datasource:
+#      names: free-1, free-2
+#      free-1:
+#        username: free_rw
+#        password: free_rw
+#        url: jdbc:mysql://8.131.93.128:3306/free_1?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8&useSSL
+#   =false
+#        driver-class-name: com.mysql.jdbc.Driver
+#      free-2:
+#        username: free_rw
+#        password: free_rw
+#        url: jdbc:mysql://8.131.93.128:3306/free_2?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8&useSSL
+#    =false
+#        driver-class-name: com.mysql.jdbc.Driver
+#    database-strategy: com.sky.cloud.sharejdbc.shareStrategy.MyShareDBStrategy
