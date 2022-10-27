@@ -5,24 +5,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2e8e827c-d370-4f81-a1ab-f9999d582b5c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_28.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_2_1_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_2_1_4.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud-base/cloud-base.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-base/cloud-base.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-base/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-base/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-base/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-base/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-sharejdbc/HELP.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud-sharejdbc/cloud-sharejdbc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-sharejdbc/cloud-sharejdbc.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud-sharejdbc/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-sharejdbc/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-sharejdbc/src/main/java/com/sky/cloud/sharejdbc/CloudSharejdbcApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-sharejdbc/src/main/java/com/sky/cloud/sharejdbc/CloudSharejdbcApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-sharejdbc/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-sharejdbc/src/main/java/com/sky/cloud/sharejdbc/controller/ShareController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-sharejdbc/src/main/java/com/sky/cloud/sharejdbc/controller/ShareController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-sharejdbc/src/main/java/com/sky/cloud/sharejdbc/manager/UserManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-sharejdbc/src/main/java/com/sky/cloud/sharejdbc/manager/UserManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-sharejdbc/src/main/java/com/sky/cloud/sharejdbc/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-sharejdbc/src/main/java/com/sky/cloud/sharejdbc/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-sharejdbc/src/main/java/com/sky/cloud/sharejdbc/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-sharejdbc/src/main/java/com/sky/cloud/sharejdbc/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-sharejdbc/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-sharejdbc/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-sharejdbc/src/main/resources/mybatis/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-sharejdbc/src/main/resources/mybatis/mapper/UserMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud-sharejdbc/src/test/java/com/sky/cloud/sharejdbc/CloudSharejdbcApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-sharejdbc/src/test/java/com/sky/cloud/sharejdbc/CloudSharejdbcApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-sharejdbc/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-sharejdbc/src/test/java/com/sky/cloud/sharejdbc/JavaDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-sharejdbc/src/test/java/com/sky/cloud/sharejdbc/JavaDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-sharejdbc/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-sharejdbc/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-sharejdbc/target/classes/com/sky/cloud/sharejdbc/controller/ShareController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-sharejdbc/target/classes/com/sky/cloud/sharejdbc/controller/ShareController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-sharejdbc/target/classes/com/sky/cloud/sharejdbc/manager/UserManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-sharejdbc/target/classes/com/sky/cloud/sharejdbc/manager/UserManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-sharejdbc/target/classes/com/sky/cloud/sharejdbc/mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-sharejdbc/target/classes/com/sky/cloud/sharejdbc/mapper/UserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-sharejdbc/target/classes/com/sky/cloud/sharejdbc/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-sharejdbc/target/classes/com/sky/cloud/sharejdbc/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-sharejdbc/target/classes/mybatis/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-sharejdbc/target/classes/mybatis/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-sharejdbc/target/test-classes/com/sky/cloud/sharejdbc/CloudSharejdbcApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-sharejdbc/target/test-classes/com/sky/cloud/sharejdbc/CloudSharejdbcApplicationTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-sharejdbc/target/test-classes/com/sky/cloud/sharejdbc/JavaDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-sharejdbc/target/test-classes/com/sky/cloud/sharejdbc/JavaDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -76,7 +93,7 @@
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
     <property name="show.run.dashboard.notification" value="false" />
   </component>
   <component name="RecentsManager">
@@ -89,9 +106,9 @@
       <recent name="$PROJECT_DIR$/cloud-sharejdbc/src/main/resources/mybatis/mapper" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CloudSharejdbcApplicationTests">
-    <configuration name="CountDownLatchDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sky.cloud.sharejdbc.CountDownLatchDemo" />
+  <component name="RunManager" selected="Spring Boot.CloudSharejdbcApplication">
+    <configuration name="JavaDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sky.cloud.sharejdbc.JavaDemo" />
       <module name="cloud-sharejdbc" />
       <extension name="coverage">
         <pattern>
@@ -103,25 +120,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FactoryMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sky.cloud.design.FactoryMethod" />
+    <configuration name="LogDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sky.cloud.sharejdbc.LogDemo" />
       <module name="cloud-sharejdbc" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sky.cloud.design.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LazySingletonTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sky.cloud.design.LazySingletonTest" />
-      <module name="cloud-sharejdbc" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sky.cloud.design.*" />
+          <option name="PATTERN" value="com.sky.cloud.sharejdbc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,6 +144,22 @@
       <option name="PACKAGE_NAME" value="com.sky.cloud.sharejdbc" />
       <option name="MAIN_CLASS_NAME" value="com.sky.cloud.sharejdbc.CloudSharejdbcApplicationTests" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CloudSharejdbcApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cloud-sharejdbc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sky.cloud.sharejdbc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sky.cloud.sharejdbc" />
+      <option name="MAIN_CLASS_NAME" value="com.sky.cloud.sharejdbc.CloudSharejdbcApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -167,11 +187,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CloudSharejdbcApplicationTests" />
         <item itemvalue="Spring Boot.CloudSharejdbcApplication" />
-        <item itemvalue="Application.FactoryMethod" />
-        <item itemvalue="Application.LazySingletonTest" />
-        <item itemvalue="Application.CountDownLatchDemo" />
+        <item itemvalue="Application.LogDemo" />
+        <item itemvalue="Application.JavaDemo" />
+        <item itemvalue="JUnit.CloudSharejdbcApplicationTests" />
+        <item itemvalue="JUnit.CloudSharejdbcApplicationTests.contextLoads" />
       </list>
     </recent_temporary>
   </component>
@@ -189,7 +209,8 @@
       <workItem from="1666338203884" duration="6590000" />
       <workItem from="1666494037042" duration="8183000" />
       <workItem from="1666597799591" duration="1527000" />
-      <workItem from="1666599347611" duration="2555000" />
+      <workItem from="1666599347611" duration="9810000" />
+      <workItem from="1666842526927" duration="4825000" />
     </task>
     <servers />
   </component>

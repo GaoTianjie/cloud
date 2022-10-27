@@ -7,8 +7,13 @@
         <result column="id" property="id" jdbcType="BIGINT" />
         <result column="user_name" property="userName" jdbcType="VARCHAR" />
     </resultMap>
+    <insert id="insert">
+        insert into f_user (id) values (#{id});
+    </insert>
 
     <select id="getUserById" resultMap="BaseUser">
         select id, user_name from f_user where id = #{id};
     </select>
+
+
 </mapper>

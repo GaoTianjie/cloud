@@ -6,6 +6,8 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
+import java.io.IOException;
+
 @SpringBootTest
 class CloudSharejdbcApplicationTests {
 
@@ -15,10 +17,12 @@ class CloudSharejdbcApplicationTests {
     @Autowired
     UserService userService;
 
+    @Autowired
+    ServiceA serviceA;
+
     @Test
-    void contextLoads() {
-        System.out.println(userService.getUserById(1L).toString());
-        System.out.println(person);
+    void contextLoads() throws IOException {
+        serviceA.methodB();
     }
 
 }

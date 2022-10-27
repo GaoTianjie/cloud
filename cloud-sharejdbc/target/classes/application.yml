@@ -7,6 +7,7 @@ spring:
     password: free_rw
     url: jdbc:mysql://8.131.93.128:3306/free_1?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8&useSSL=false
     driver-class-name: com.mysql.jdbc.Driver
+    type: com.zaxxer.hikari.HikariDataSource
 
 
 mybatis:
@@ -19,7 +20,7 @@ person:
   userName : gao
   age : 123
 
-
+## log
 
 
 
@@ -40,3 +41,14 @@ person:
 #    =false
 #        driver-class-name: com.mysql.jdbc.Driver
 #    database-strategy: com.sky.cloud.sharejdbc.shareStrategy.MyShareDBStrategy
+# 设置日志级别会给root根节点设置，代表整体应用都级别
+logging:
+  level:
+    root: Error
+    mygroup: debug
+  group:
+    mygroup: com.sky.cloud.sharejdbc.controller
+  pattern:
+    console: "%d %p %clr(%thread){green} %c %L %M %n"
+  file:
+    name: /Users/gaotianjie/work/log/cloudservice.log

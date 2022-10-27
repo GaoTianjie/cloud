@@ -1,0 +1,8 @@
+{
+  "properties": [
+    {
+      "name": "logging.logback.rollingpolicy.max-file-size",
+      "type": "java.lang.String",
+      "description": "Description for logging.logback.rollingpolicy.max-file-size."
+  }
+] }
